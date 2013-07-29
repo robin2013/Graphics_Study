@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B047A017A637240094B145 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B0479F17A637240094B145 /* UIKit.framework */; };
+		00B047A217A637240094B145 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B047A117A637240094B145 /* Foundation.framework */; };
+		00B047A417A637240094B145 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B047A317A637240094B145 /* CoreGraphics.framework */; };
+		00B047AA17A637240094B145 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00B047A817A637240094B145 /* InfoPlist.strings */; };
+		00B047AC17A637240094B145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B047AB17A637240094B145 /* main.m */; };
+		00B047B017A637240094B145 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B047AF17A637240094B145 /* AppDelegate.m */; };
+		00B047B217A637240094B145 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B047B117A637240094B145 /* Default.png */; };
+		00B047B417A637240094B145 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B047B317A637240094B145 /* Default@2x.png */; };
+		00B047B617A637240094B145 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B047B517A637240094B145 /* Default-568h@2x.png */; };
+		00B047B917A637240094B145 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B047B817A637240094B145 /* ViewController.m */; };
+		00B047BC17A637240094B145 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B047BA17A637240094B145 /* ViewController_iPhone.xib */; };
+		00B047BF17A637240094B145 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B047BD17A637240094B145 /* ViewController_iPad.xib */; };
+		00B047C817A637C70094B145 /* FontView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B047C717A637C70094B145 /* FontView.m */; };
+		00B047CB17A639720094B145 /* FontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B047CA17A639710094B145 /* FontViewController.m */; };
+		00B047CE17A640FB0094B145 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B047CD17A640FB0094B145 /* ImageViewController.m */; };
+		00B047D117A641120094B145 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B047D017A641120094B145 /* ImageView.m */; };
+		00B047D317A641550094B145 /* ren.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 00B047D217A641550094B145 /* ren.JPG */; };
+		00B047D617A646ED0094B145 /* StrokeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B047D517A646ED0094B145 /* StrokeView.m */; };
+		00B047D917A64AB00094B145 /* StrokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B047D817A64AB00094B145 /* StrokeViewController.m */; };
+		00B047DC17A64BCE0094B145 /* PathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B047DB17A64BCD0094B145 /* PathViewController.m */; };
+		00B047DF17A64BE90094B145 /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B047DE17A64BE90094B145 /* PathView.m */; };
+		00B047E217A652DD0094B145 /* GradenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B047E117A652DD0094B145 /* GradenView.m */; };
+		00B047E517A654E60094B145 /* GradienViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B047E417A654E60094B145 /* GradienViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B0479C17A637240094B145 /* Graphics_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graphics_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B0479F17A637240094B145 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00B047A117A637240094B145 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00B047A317A637240094B145 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00B047A717A637240094B145 /* Graphics_Study-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Graphics_Study-Info.plist"; sourceTree = "<group>"; };
+		00B047A917A637240094B145 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00B047AB17A637240094B145 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00B047AD17A637240094B145 /* Graphics_Study-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Graphics_Study-Prefix.pch"; sourceTree = "<group>"; };
+		00B047AE17A637240094B145 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00B047AF17A637240094B145 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00B047B117A637240094B145 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		00B047B317A637240094B145 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		00B047B517A637240094B145 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		00B047B717A637240094B145 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00B047B817A637240094B145 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00B047BB17A637240094B145 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		00B047BE17A637240094B145 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		00B047C617A637C70094B145 /* FontView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontView.h; sourceTree = "<group>"; };
+		00B047C717A637C70094B145 /* FontView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontView.m; sourceTree = "<group>"; };
+		00B047C917A639710094B145 /* FontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontViewController.h; sourceTree = "<group>"; };
+		00B047CA17A639710094B145 /* FontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontViewController.m; sourceTree = "<group>"; };
+		00B047CC17A640FB0094B145 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = Graphics_Study/ImageViewController.h; sourceTree = SOURCE_ROOT; };
+		00B047CD17A640FB0094B145 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = Graphics_Study/ImageViewController.m; sourceTree = SOURCE_ROOT; };
+		00B047CF17A641120094B145 /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		00B047D017A641120094B145 /* ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
+		00B047D217A641550094B145 /* ren.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ren.JPG; sourceTree = "<group>"; };
+		00B047D417A646ED0094B145 /* StrokeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrokeView.h; sourceTree = "<group>"; };
+		00B047D517A646ED0094B145 /* StrokeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrokeView.m; sourceTree = "<group>"; };
+		00B047D717A64AB00094B145 /* StrokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrokeViewController.h; sourceTree = "<group>"; };
+		00B047D817A64AB00094B145 /* StrokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrokeViewController.m; sourceTree = "<group>"; };
+		00B047DA17A64BCD0094B145 /* PathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PathViewController.h; path = Graphics_Study/PathViewController.h; sourceTree = SOURCE_ROOT; };
+		00B047DB17A64BCD0094B145 /* PathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PathViewController.m; path = Graphics_Study/PathViewController.m; sourceTree = SOURCE_ROOT; };
+		00B047DD17A64BE90094B145 /* PathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathView.h; sourceTree = "<group>"; };
+		00B047DE17A64BE90094B145 /* PathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathView.m; sourceTree = "<group>"; };
+		00B047E017A652DD0094B145 /* GradenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradenView.h; sourceTree = "<group>"; };
+		00B047E117A652DD0094B145 /* GradenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradenView.m; sourceTree = "<group>"; };
+		00B047E317A654E60094B145 /* GradienViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradienViewController.h; sourceTree = "<group>"; };
+		00B047E417A654E60094B145 /* GradienViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradienViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00B0479917A637240094B145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B047A017A637240094B145 /* UIKit.framework in Frameworks */,
+				00B047A217A637240094B145 /* Foundation.framework in Frameworks */,
+				00B047A417A637240094B145 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B0479317A637240094B145 = {
+			isa = PBXGroup;
+			children = (
+				00B047A517A637240094B145 /* Graphics_Study */,
+				00B0479E17A637240094B145 /* Frameworks */,
+				00B0479D17A637240094B145 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00B0479D17A637240094B145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00B0479C17A637240094B145 /* Graphics_Study.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00B0479E17A637240094B145 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B0479F17A637240094B145 /* UIKit.framework */,
+				00B047A117A637240094B145 /* Foundation.framework */,
+				00B047A317A637240094B145 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00B047A517A637240094B145 /* Graphics_Study */ = {
+			isa = PBXGroup;
+			children = (
+				00B047D217A641550094B145 /* ren.JPG */,
+				00B047C517A637B10094B145 /* graphics */,
+				00B047AE17A637240094B145 /* AppDelegate.h */,
+				00B047AF17A637240094B145 /* AppDelegate.m */,
+				00B047B717A637240094B145 /* ViewController.h */,
+				00B047B817A637240094B145 /* ViewController.m */,
+				00B047BA17A637240094B145 /* ViewController_iPhone.xib */,
+				00B047BD17A637240094B145 /* ViewController_iPad.xib */,
+				00B047A617A637240094B145 /* Supporting Files */,
+				00B047C917A639710094B145 /* FontViewController.h */,
+				00B047CA17A639710094B145 /* FontViewController.m */,
+				00B047CC17A640FB0094B145 /* ImageViewController.h */,
+				00B047CD17A640FB0094B145 /* ImageViewController.m */,
+				00B047D717A64AB00094B145 /* StrokeViewController.h */,
+				00B047D817A64AB00094B145 /* StrokeViewController.m */,
+				00B047DA17A64BCD0094B145 /* PathViewController.h */,
+				00B047DB17A64BCD0094B145 /* PathViewController.m */,
+				00B047E317A654E60094B145 /* GradienViewController.h */,
+				00B047E417A654E60094B145 /* GradienViewController.m */,
+			);
+			path = Graphics_Study;
+			sourceTree = "<group>";
+		};
+		00B047A617A637240094B145 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00B047A717A637240094B145 /* Graphics_Study-Info.plist */,
+				00B047A817A637240094B145 /* InfoPlist.strings */,
+				00B047AB17A637240094B145 /* main.m */,
+				00B047AD17A637240094B145 /* Graphics_Study-Prefix.pch */,
+				00B047B117A637240094B145 /* Default.png */,
+				00B047B317A637240094B145 /* Default@2x.png */,
+				00B047B517A637240094B145 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00B047C517A637B10094B145 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				00B047C617A637C70094B145 /* FontView.h */,
+				00B047C717A637C70094B145 /* FontView.m */,
+				00B047CF17A641120094B145 /* ImageView.h */,
+				00B047D017A641120094B145 /* ImageView.m */,
+				00B047D417A646ED0094B145 /* StrokeView.h */,
+				00B047D517A646ED0094B145 /* StrokeView.m */,
+				00B047DD17A64BE90094B145 /* PathView.h */,
+				00B047DE17A64BE90094B145 /* PathView.m */,
+				00B047E017A652DD0094B145 /* GradenView.h */,
+				00B047E117A652DD0094B145 /* GradenView.m */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00B0479B17A637240094B145 /* Graphics_Study */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B047C217A637240094B145 /* Build configuration list for PBXNativeTarget "Graphics_Study" */;
+			buildPhases = (
+				00B0479817A637240094B145 /* Sources */,
+				00B0479917A637240094B145 /* Frameworks */,
+				00B0479A17A637240094B145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Graphics_Study;
+			productName = Graphics_Study;
+			productReference = 00B0479C17A637240094B145 /* Graphics_Study.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00B0479417A637240094B145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Robin;
+			};
+			buildConfigurationList = 00B0479717A637240094B145 /* Build configuration list for PBXProject "Graphics_Study" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00B0479317A637240094B145;
+			productRefGroup = 00B0479D17A637240094B145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00B0479B17A637240094B145 /* Graphics_Study */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00B0479A17A637240094B145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B047AA17A637240094B145 /* InfoPlist.strings in Resources */,
+				00B047B217A637240094B145 /* Default.png in Resources */,
+				00B047B417A637240094B145 /* Default@2x.png in Resources */,
+				00B047B617A637240094B145 /* Default-568h@2x.png in Resources */,
+				00B047BC17A637240094B145 /* ViewController_iPhone.xib in Resources */,
+				00B047BF17A637240094B145 /* ViewController_iPad.xib in Resources */,
+				00B047D317A641550094B145 /* ren.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00B0479817A637240094B145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B047AC17A637240094B145 /* main.m in Sources */,
+				00B047B017A637240094B145 /* AppDelegate.m in Sources */,
+				00B047B917A637240094B145 /* ViewController.m in Sources */,
+				00B047C817A637C70094B145 /* FontView.m in Sources */,
+				00B047CB17A639720094B145 /* FontViewController.m in Sources */,
+				00B047CE17A640FB0094B145 /* ImageViewController.m in Sources */,
+				00B047D117A641120094B145 /* ImageView.m in Sources */,
+				00B047D617A646ED0094B145 /* StrokeView.m in Sources */,
+				00B047D917A64AB00094B145 /* StrokeViewController.m in Sources */,
+				00B047DC17A64BCE0094B145 /* PathViewController.m in Sources */,
+				00B047DF17A64BE90094B145 /* PathView.m in Sources */,
+				00B047E217A652DD0094B145 /* GradenView.m in Sources */,
+				00B047E517A654E60094B145 /* GradienViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00B047A817A637240094B145 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00B047A917A637240094B145 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00B047BA17A637240094B145 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00B047BB17A637240094B145 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		00B047BD17A637240094B145 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00B047BE17A637240094B145 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00B047C017A637240094B145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00B047C117A637240094B145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00B047C317A637240094B145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Graphics_Study/Graphics_Study-Prefix.pch";
+				INFOPLIST_FILE = "Graphics_Study/Graphics_Study-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00B047C417A637240094B145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Graphics_Study/Graphics_Study-Prefix.pch";
+				INFOPLIST_FILE = "Graphics_Study/Graphics_Study-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00B0479717A637240094B145 /* Build configuration list for PBXProject "Graphics_Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B047C017A637240094B145 /* Debug */,
+				00B047C117A637240094B145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B047C217A637240094B145 /* Build configuration list for PBXNativeTarget "Graphics_Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B047C317A637240094B145 /* Debug */,
+				00B047C417A637240094B145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00B0479417A637240094B145 /* Project object */;
+}
